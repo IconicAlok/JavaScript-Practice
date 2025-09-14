@@ -57,52 +57,53 @@ console.log(greetings+name);
 console.log(Math.max(2,4));
 console.log(Math.min(2,4)+100);
 
-// let theNumber = Number(prompt("Pick a number"));
-// console.log("Your number is square root of : "+ theNumber * theNumber);
+let theNumber = Number(prompt("Pick a number"));
+console.log("Your number is square root of : "+ theNumber * theNumber);
 
-// let theNumber = Number(prompt("pick a number"));
-// if(!Number.isNaN(theNumber)){
-//     console.log("Your number is square root of : "+ theNumber * theNumber);
-// }
-//The Number.isNaN function is a standard JavaScript function that returns true only 
+let theNumber = Number(prompt("pick a number"));
+if(!Number.isNaN(theNumber)){
+    console.log("Your number is square root of : "+ theNumber * theNumber);
+}
+
+// The Number.isNaN function is a standard JavaScript function that returns true only 
 // if the argument it is given is NaN
 
 if(1+1 == 2) console.log("it's true");
 
-// let theNumber = Number(prompt("Pick a number"));
-// if (!Number.isNaN(theNumber)) {
-// console.log("Your number is the square root of " +
-// theNumber * theNumber);
-// } else {
-//     console.log("Hey! Why didn't You give me a number");
-// }
+let theNumber = Number(prompt("Pick a number"));
+if (!Number.isNaN(theNumber)) {
+console.log("Your number is the square root of " +
+theNumber * theNumber);
+} else {
+    console.log("Hey! Why didn't You give me a number");
+}
 
 
 
-// let num = Number(prompt("pick a number"));
-// if(num < 10){
-//     console.log("small");
-// }else if (num < 100) {
-//     console.log("medium");
-// }else{
-//     console.log("large");
-// }
+let num = Number(prompt("pick a number"));
+if(num < 10){
+    console.log("small");
+}else if (num < 100) {
+    console.log("medium");
+}else{
+    console.log("large");
+}
 
 
-// let result = 1;
-// let counter = 0;
-// while(counter < 10){
-//    result = result * 2;
-//    counter = counter + 1; 
-// }
-// console.log(result);
+let result = 1;
+let counter = 0;
+while(counter < 10){
+   result = result * 2;
+   counter = counter + 1; 
+}
+console.log(result);
 
 
-// let yourName;
-// do{
-//     yourName = prompt("your name");
-// }while(!yourName)
-// console.log("Hello "+yourName);
+let yourName;
+do{
+    yourName = prompt("your name");
+}while(!yourName)
+console.log("Hello "+yourName);
 
 if(false!=true){
     console.log("that make sense");
@@ -116,7 +117,7 @@ for(let number=0; number<=12; number = number+2){
 
 let result = 1;
 for(let counter =0; counter < 10; counter=counter+1){
-    result = result *2;
+    result = result * 2;
 }console.log(result);
 
 

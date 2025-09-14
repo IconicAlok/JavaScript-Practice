@@ -24,11 +24,11 @@ let warp2 = warpValue(2);
 console.log(warp1());
 console.log(warp2());
 
-// function multiplier(factor){
-//     return number = function(){
-//         return number * factor;
-//     };
-// }
+function multiplier(factor){
+    return number = function(){
+        return number * factor;
+    };
+}
 
 function multiplier(factor){
     return number => number*factor;
